@@ -67,7 +67,8 @@ Ejemplo de Autenticación (Login) Usuario contraseña con Roles Admin y User en 
                 <web-resource-collection>
                     <web-resource-name>User</web-resource-name>
                     <description>Acceso a las páginas de usuario normal logeado en el sistema</description>
-                    <url-pattern>/secureUser/*</url-pattern>
+                    <description>Este es una nueva línea de código</description>
+					<url-pattern>/secureUser/*</url-pattern>
                 </web-resource-collection>
                 <auth-constraint>
                     <description/>
